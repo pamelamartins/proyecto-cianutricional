@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=PT+Serif:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d570aaabde.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Compañía Nutricional | Contacto </title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="header__link"><img src="../assets/imagenes/1ciagreen.png" alt="Logo Compañia Nutricional"
+                class="header__imagen"></a>
+
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item"><a href="../index.html" class="navbaritem">Inicio</a></li>
+                <li class="navbar__item"><a href="sobremi.html" class="navbaritem">Sobre mí</a></li>
+                <li class="navbar__item"><a href="consultorio.html" class="navbaritem">Consultorio</a></li>
+                <li class="navbar__item"><a href="recetas.html" class="navbaritem">Recetas saludables</a></li>
+                <li class="navbar__item"><a href="contacto.html" class="navbaritem">Contacto</a></li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+
+
+    <main class="main__foto">
+
+        <div class="contacto__form">
+            <div class="contacto__div">
+                <h1>Contactanos</h1>
+                <form>
+                    <div>
+                        <label for="nombre">Nombre y apellido:</label>
+                        <input type="text" id="nombre" placeholder="Nombre y Apellido" required>
+                    </div>
+
+                    <div>
+                        <label for="genero">Género:</label>
+                        <select name="genero" id="genero">
+                            <option value="femenino">Femenino</option>
+                            <option value="masculino">Masculino</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" placeholder="example@gmail.com" required>
+                    </div>
+
+                    <div>
+                        <label for="informacion">Querés recibir información sobre nuestro newsletter?</label>
+                        <input type="checkbox" name="info" id="informacion" value="Si" checked>
+                    </div>
+
+                    <div>
+                        <span>Te interesaría recibir información sobre: <br></span>
+
+                        <label for="recetas">Recetas saludables</label>
+                        <input type="radio" id="recetas" name="infonutri" value="recetassaludables" checked> <br>
+
+                        <label for="tips">Tips de nutrición</label>
+                        <input type="radio" id="tips" name="infonutri" value="tipsnutricion"> <br>
+
+                        <label for="info">Información nutricional</label>
+                        <input type="radio" id="info" name="infonutri" value="infonutricional">
+                    </div>
+
+                    <div>
+
+                        <textarea name="mensaje" id="mensaje" cols="25" rows="5"
+                            placeholder="Dejame un mensaje..."></textarea>
+
+                    </div>
+
+
+                    <div class="boton__enviar">
+                        <input type="submit" value="Enviar" class="boton__send">
+                    </div>
+
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <h3 class="redes__titulo">Redes sociales </h3>
+        <div>
+            <ul class="redes__list">
+                <li class="redes__sociales"><a href="https://www.instagram.com/cianutricional/" class="redessociales"
+                        target="_blank"><i class="fa-brands fa-instagram fa-3x"></i></a></li>
+                <li class="redes__sociales"> <a href="https://www.facebook.com/" class="redessociales"
+                        target="_blank"><i class="fa-brands fa-facebook fa-3x"></i></a> </li>
+                <li class="redes__sociales"><a href="https://linkedin.com" class="redessociales" target="_blank"><i
+                            class="fa-brands fa-linkedin fa-3x"></i></a></li>
+            </ul>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
