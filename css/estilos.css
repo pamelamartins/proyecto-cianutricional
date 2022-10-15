@@ -32,50 +32,57 @@ a {
 .header {
     background-color: greenyellow;
     width: 100%;
-    height: 100px;
+    height: 12vh;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
+    justify-content: space-between;
+    
+}
 
-
+.marca{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .header__imagen {
-    width: 25%;
-    margin-left: 40px;
+    width: 9vh;
+    height: 9vh;
+    margin-left: 1vh;
 }
-
-
 
 .navbar__list {
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    gap: 1px;
 }
 
 .navbar__item {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 700;
     margin: 0 10px;
-    line-height: 80px;
+    line-height: 2vh;
     width: max-content;
 
 }
 
 .navbaritem {
-    padding: 10px;
-    text-decoration: none;
+    padding: 15px;
 }
 
 .navbaritem:hover {
     background-color: chartreuse;
 }
 
-.img__portada img {
+/* .img__portada img {
     height: 500px;
     width: 100%;
+} */
 
-}
+
+
 
 /*--Main--*/
 
@@ -359,4 +366,26 @@ ul.redes__list li a:hover {
     background-color: rgba(128, 255, 0, 0.356);
     border: 2px solid black;
     border-radius: 5px 5px 5px 5px;
+}
+
+
+@media (min-width:768px){
+
+    /*--Header--*/
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .navbar__list{
+        flex-direction: row;
+    }
+
+    .navbar__item{
+        font-size: 1rem;
+    }
+
+    
 }
