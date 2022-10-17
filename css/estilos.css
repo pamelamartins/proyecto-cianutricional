@@ -233,25 +233,29 @@ ul.redes__list li a:hover {
 .contacto__form {
     background-image: url("../assets/imagenes/limaimg.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 900px;
-    margin: 0%;
+    background-size:cover;
+    background-position: center;
+    height: 100vh; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .contacto__div {
-    position: absolute;
-    top: 28%;
-    left: 37%;
-    margin: 45px 15px 50px;
-    padding: 55px;
-    width: 25%;
-    justify-content: center;
+    margin: 3% 12%;
+    width:75%;
+    justify-items: center;
+    align-content: center;
+    justify-content:center;
+    align-items: center;
     background-color: rgba(128, 255, 0, 0.689);
-    border-radius: 50px 50px 50px 50px;
+    border-radius: 50px 50px 50px 50px; 
     text-align: center;
-    height: 15cm;
     line-height: 27px;
+    padding: 6%;
+    
 }
 
 .boton__send {
@@ -395,4 +399,21 @@ align-content: center;
 justify-content: center;
 margin-block: 5vh;
 } 
+
+/*--Pagina Contacto--*/
+ .contacto__div {
+    width: 45%;
+    text-align: center;
+    padding: 3.4%;
+    
 }
+
+}
+
+@media (min-width:1024px){
+    .contacto__div {
+        width: 30%;
+        padding: 4%;
+    }
+}
+
