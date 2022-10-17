@@ -76,13 +76,6 @@ a {
     background-color: chartreuse;
 }
 
-/* .img__portada img {
-    height: 500px;
-    width: 100%;
-} */
-
-
-
 
 /*--Main--*/
 
@@ -196,11 +189,16 @@ ul.redes__list li a:hover {
 
 /*--Pagina Sobre mi--*/
 .sobremi__pag img {
-    width: 50%;
-    height: 600px;
-    margin-left: 10%;
-    margin-right: 10%;
+    width: 100%;
+    height: 38vh;
+}
 
+.sobremi__pag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .sobremi__titulo {
@@ -224,7 +222,7 @@ ul.redes__list li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    line-height: 40px;
+    line-height: 30px;
     font-family: "Amiri", serif;
 }
 
@@ -410,16 +408,35 @@ margin-block: 5vh;
     
 }
 
+/*--Pagina Sobre mi--*/
+.sobremi__pag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sobremi__pag img {
+    width: 60vh;
+    height: 70vh;
+    margin-left: 10%;
+}
+
+
 }
 
 @media (min-width:1024px){
+   /*--Pagina Contacto--*/ 
     .contacto__div {
         width: 30%;
         padding: 4%;
     }
 }
 
+
+
 @media (max-width:460px){
+    /*--Footer--*/
     .redes__titulo {
         font-size: 1.3rem;
     }
