@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=PT+Serif:wght@400;700&display=swap"
         rel="stylesheet">
-        <script src="https://kit.fontawesome.com/d570aaabde.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/d570aaabde.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/estilos.css">
     <title>Compañía Nutricional</title>
 </head>
@@ -19,91 +21,119 @@
     <!--Header-->
 
     <header class="header">
-        <div class="marca">
-            <a href="./index.html" class="header__link"><img src="./assets/imagenes/1ciagreen.png" alt="Logo Compañia Nutricional"
-                    class="header__imagen"></a>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"> <img src="./assets/imagenes/ciagreen.png"
+                        alt="Logo Compañia Nutricional" class="header__imagen"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link navbaritem" href="">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbaritem" href="./paginas/sobremi.html">Sobre mí</a>
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbaritem" href="./paginas/consultorio.html">Consultorio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbaritem" href="./paginas/recetas.html">Recetas Saludables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navbaritem" href="./paginas/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        <nav class="navbar">
-            <ul class="navbar__list">
-                <li class="navbar__item"><a href="" class="navbaritem">Inicio</a></li>
-                <li class="navbar__item"><a href="./paginas/sobremi.html" class="navbaritem">Sobre mí</a></li>
-                <li class="navbar__item"><a href="./paginas/consultorio.html" class="navbaritem">Consultorio</a></li>
-                <li class="navbar__item"><a href="./paginas/recetas.html" class="navbaritem">Recetas saludables</a></li>
-                <li class="navbar__item"><a href="./paginas/contacto.html" class="navbaritem">Contacto</a></li>
-            </ul>
         </nav>
-
-
-
     </header>
-
 
     <!--Section-->
 
-    <section>
+    <section class="portada">
         <video src="./assets/videos/kiwivideo.mp4" autoplay loop muted></video>
-
     </section>
 
-    <section>
-        <h1 class="titulo__cia">Compañía Nutricional</h1>
-        <h2 class="subt__cia">Una vida saludable es posible</h2>
-    </section>
 
     <!--Main-->
     <main>
+        <section>
+            <h1 class="titulo__cia container">Compañía Nutricional</h1>
+            <h2 class="subt__cia container">Una vida saludable es posible</h2>
+        </section>
 
-        <div class="ali__saludable tit__art">
-            <article class="tit__art">
-                <div class="posicion__alisaludable">
-                    <h3>Lorem ipsum dolor sit amet.</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, commodi. Consequuntur commodi eius
-                        totam,
-                        voluptate aliquid dolor ea quibusdam ex id placeat nostrum, fuga enim magnam facilis
-                        voluptatibus
-                        quia!
-                        Neque.</p>
+
+        <section class="container">
+
+            <div class="row">
+                <div class="col-12 col-md-6 img__main">
+                    <article>
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, commodi. Consequuntur commodi
+                            eius
+                            totam,
+                            voluptate aliquid dolor ea quibusdam ex id placeat nostrum, fuga enim magnam facilis
+                            voluptatibus
+                            quia!
+                            Neque.</p>
+                    </article>
                 </div>
-                <img src="./assets/imagenes/ensaladaimg.jpg" alt="Ensalada saludable">
-            </article>
-        </div>
-
-        <div class="act__fisica">
-
-            <article class="tit__art">
-                <img src="./assets/imagenes/actfisica.jpg" alt="Actividad fisica">
-                <div class="posicion__actfisica">
-                    <h3>Lorem ipsum dolor sit amet.</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi voluptatibus enim ut, velit
-                        obcaecati
-                        quas nemo eos nulla libero ipsa non quia laudantium nesciunt quos totam hic rerum, illum animi?
-                    </p>
+                <div class="col-12 col-md-6 img__main">
+                    <img src="./assets/imagenes/ensaladaimg.jpg" alt="Ensalada saludable">
                 </div>
-            </article>
-        </div>
+            </div>
 
-        <div class="cinta__met">
-            <article class="tit__art">
-                <div class="posicion__cintamet">
-                    <h3>Lorem ipsum dolor sit amet.
-                    </h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos veniam molestias praesentium
-                        facere
-                        voluptatem ipsam dolorum reprehenderit dolore? Illo porro voluptatum qui itaque ab eveniet id
-                        aliquid
-                        provident est velit.</p>
+
+            <div class="row">
+                <div class="col-12 col-md-6 img__main">
+                    <img src="./assets/imagenes/actfisica.jpg" alt="Actividad fisica">
                 </div>
-                <img src="./assets/imagenes/cintametrica.jpg" alt="Mediciones Antropometricas">
-            </article>
-        </div>
+                <div class="col-12 col-md-6 img__main">
+                    <article>
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, commodi. Consequuntur commodi
+                            eius
+                            totam,
+                            voluptate aliquid dolor ea quibusdam ex id placeat nostrum, fuga enim magnam facilis
+                            voluptatibus
+                            quia!
+                            Neque.</p>
+                    </article>
+                </div>
+
+            </div>
 
 
+            <div class="row">
+                <div class="col-12 col-md-6 img__main">
+                    <article>
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, commodi. Consequuntur commodi
+                            eius
+                            totam,
+                            voluptate aliquid dolor ea quibusdam ex id placeat nostrum, fuga enim magnam facilis
+                            voluptatibus
+                            quia!
+                            Neque.</p>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 img__main">
+                    <img src="./assets/imagenes/cintametrica.jpg" alt="Mediciones Antropometricas">
+                </div>
+            </div>
+        </section>
 
     </main>
 
     <!--Footer-->
+
     <footer class="footer">
-        <h3 class="redes__titulo">Redes sociales </h3>
+        <h3 class="redes__titulo">Redes sociales</h3>
         <div>
             <ul class="redes__list">
                 <li class="redes__sociales"><a href="https://www.instagram.com/cianutricional/" class="redessociales"
@@ -114,10 +144,11 @@
                             class="fa-brands fa-linkedin fa-2x"></i></a></li>
             </ul>
         </div>
-
-
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
