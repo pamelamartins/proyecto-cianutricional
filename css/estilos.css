@@ -30,8 +30,8 @@ a {
 /*--Header--*/
 
 .header {
-  background-color:white;
-  color:#608c52;
+    background-color: white;
+    color: #608c52;
 }
 
 .header__imagen {
@@ -42,39 +42,32 @@ a {
 
 
 .navbaritem:hover {
-    background-color:#e0d0a6;
+    background-color: #e0d0a6;
     border-radius: 100%;
-    color:#e0d0a6;
+    color: #e0d0a6;
 }
-.nav-link.navbaritem{
+
+.nav-link.navbaritem {
     padding: 16px;
     color: #4A643A;
-    font-weight:bold;
+    font-weight: bold;
 }
-.navbar-nav .nav-link.active{
+
+.navbar-nav .nav-link.active {
     color: #e0d0a6;
     background-color: #4A643A;
     border-radius: 100%;
 }
-   
+
 
 
 /*--Main--*/
 
 .titulo__cia {
     font-family: 'Amiri', serif;
-    font-size: 3rem;
     text-align: center;
     color: #608c52;
-
-}
-
-.subt__cia {
-    font-family: 'PT Serif', serif;
-    font-size: 1.7rem;
-    text-align: center;
-    padding: 3px;
-    color: #608c52;
+    margin: 2%;
 
 }
 
@@ -83,13 +76,13 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #608c52;
-    padding:17px;
+    padding: 17px;
     color: #e0d0a6;
     font-family: 'PT Serif', serif;
     text-decoration: none;
 }
 
-.footer__img{
+.footer__img {
     width: 30vh;
     height: 10vh;
 }
@@ -103,59 +96,21 @@ a {
 
 ul.redes__list li a {
     text-decoration: none;
-    color:  #e0d0a6;
+    color: #e0d0a6;
 }
 
 ul.redes__list li a:hover {
-    color:#4A643A ;
+    color: #4A643A;
 }
 
 /*--Pagina Sobre mi--*/
-.sobremi__pag img {
-    width: 30vh;
-    height: 30vh;
-    margin-block-end: 3vh;
-}
-
-.sobremi__pag{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.sobremi__titulo {
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
-    margin-left: 10%;
-    margin-right: 10%;
-
-}
-
-.tit__sobremi {
-    font-family: 'Amiri', serif;
-    font-size: 3rem;
-    text-align: center;
-    padding: 10px;
-    color: #608c52;
-}
-
-.art__sobremi {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 30px;
-    font-family: "Amiri", serif;
-}
 
 /*--Pagina Contacto--*/
 
 .contacto__form {
     background-image: url("../assets/imagenes/limaimg.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
@@ -167,10 +122,10 @@ ul.redes__list li a:hover {
 
 .contacto__div {
     margin: 3% 12%;
-    width:75%;
+    width: 75%;
     justify-items: center;
     align-content: center;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     background-color: #608c52;
     border-radius: 50px 50px 50px 50px;
@@ -190,10 +145,8 @@ ul.redes__list li a:hover {
     background-color: #e0d0a6;
 }
 
-.titulo__contacto{
-    font-size: 2.3rem;
+.titulo__contacto {
     color: #e0d0a6;
-
 }
 
 
@@ -210,141 +163,48 @@ ul.redes__list li a:hover {
 
 
 /*--Pagina Recetas Saludables--*/
-
-.div__recetas {
-    display: flex;
-    justify-content: space-around;
-}
-
-.inforecetas {
+.btn-primary {
     background-color: #608c52;
-    border-radius: 10px 10px 10px 10px;
-    text-align: center;
-    width: 100%;
-    height: 18cm;
-    margin-block-end: 10%;
-}
-
-.info__titulo {
-
+    color: #e0d0a6;
+    border: #e0d0a6;
     font-family: 'Amiri', serif;
-    font-size: 3rem;
-    text-align: center;
-    padding: 20px;
-    color: #608c52;
-
-}
-
-.inforecetas__tit {
-    font-family: "Amiri", serif;
-    font-size: 1.7rem;
-    padding: 45px;
-    text-decoration: underline;
-}
-
-.inforecetas__subt {
-    font-family: "Amiri", serif;
     font-size: 1.2rem;
-    padding: 45px;
 }
 
-.boton__receta {
-    font-family: "Amiri", serif;
-    font-size: 1.5rem;
-    padding: 45px;
-    text-align: center;
-}
-
-.img_container {
-    padding: 25px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.img_container img {
-    height: 350px;
-    width: 350px;
-    background-color: #608c52;
-    border: 2px solid black;
-    border-radius: 5px 5px 5px 5px;
-}
-
-.carousel-inner img {
-    width: 18vh;
-    height: 100vh;
-}
-
-.carousel-item.active {
+.btn-primary:hover {
     background-color: #e0d0a6;
 }
 
 
-
-
 /*--Ajustes Media Query--*/
-@media (min-width:768px){
+@media (min-width:768px) {
 
+    /*--Pagina Contacto--*/
+    .contacto__div {
+        width: 45%;
+        text-align: center;
+        padding: 3.4%;
+    }
 
- /*--Pagina consultorio--*/
- .consultorio{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-
-}
-
-.consul__img {
-align-content: center;
-justify-content: center;
-margin-block: 5vh;
-}
-
-/*--Pagina Contacto--*/
- .contacto__div {
-    width: 45%;
-    text-align: center;
-    padding: 3.4%;
-    
+    .titulo__contacto {
+        font-size: 3rem;
+    }
 
 }
 
-.titulo__contacto{
-    font-size: 3rem;
-}
+@media (min-width:1024px) {
 
-/*--Pagina Sobre mi--*/
-.sobremi__pag{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.sobremi__pag img {
-    width: 60vh;
-    height: 60vh;
-    margin-left: 10%;
-}
-
-
-}
-
-@media (min-width:1024px){
-   /*--Pagina Contacto--*/
+    /*--Pagina Contacto--*/
     .contacto__div {
         width: 30%;
         padding: 4%;
-        
     }
 }
 
+@media (max-width:460px) {
 
-
-@media (max-width:460px){
     /*--Footer--*/
-    .footer__img{
+    .footer__img {
         width: 15vh;
         height: 5vh;
     }
