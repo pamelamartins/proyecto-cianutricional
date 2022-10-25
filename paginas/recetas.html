@@ -20,7 +20,7 @@
 
 
   <header class="header">
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg border-bottom">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html"> <img src="../assets/imagenes/ciagreen.png"
             alt="Logo Compañia Nutricional" class="header__imagen"></a>
@@ -41,7 +41,7 @@
               <a class="nav-link navbaritem" href="consultorio.html">CONSULTORIO</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link navbaritem" href="recetas.html">RECETAS SALUDABLES</a>
+              <a class="nav-link navbaritem active" href="recetas.html">RECETAS SALUDABLES</a>
             </li>
             <li class="nav-item">
               <a class="nav-link navbaritem" href="contacto.html">CONTACTO</a>
@@ -51,13 +51,15 @@
       </div>
     </nav>
   </header>
+
+  <main>
   <section>
     <div class="info__recetas tit__art">
       <h1 class="info__titulo tit__art"> Recetas saludables</h1>
     </div>
   </section>
 
-
+<!-- 
   <div class="div__recetas">
     <section>
       <div class="cajapadre"></div>
@@ -99,7 +101,72 @@
       </article>
 
     </section>
+  </div> -->
+
+
+
+  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="../assets/imagenes/budinzanahoria.jpg" class="d-block w-100" alt="Budin de zanahoria">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Budín de zanahoria</h5>
+          <p>Budín esponjoso, húmedo y saludable</p>
+          <a href="https://www.instagram.com/p/CbN5YSwp3je/" class="boton__receta" target="_blank">Ver receta</a>
+          <button type="button" class="btn btn-light">Ver receta</>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../assets/imagenes/ensaladapalta.jpg" class="d-block w-100" alt="Ensalada healthy">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ensalada healthy</h5>
+          <p>Palta, garbanzos, arroz yamaní y atún</p>
+          <a href="https://www.instagram.com/p/CbN5YSwp3je/" class="boton__receta" target="_blank">Ver receta</a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="../assets/imagenes/tartazapallitos.jpg" class="d-block w-100" alt="Tarta de zapallitos">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Tarta de verduras</h5>
+          <p>Tarta de zapallitos con queso</p>
+          <a href="https://www.instagram.com/p/CbN5YSwp3je/" class="boton__receta" target="_blank">Ver receta</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
 
 
   <footer class="footer">

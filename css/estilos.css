@@ -51,6 +51,12 @@ a {
     color: #4A643A;
     font-weight:bold;
 }
+.navbar-nav .nav-link.active{
+    color: #e0d0a6;
+    background-color: #4A643A;
+    border-radius: 100%;
+}
+   
 
 
 /*--Main--*/
@@ -71,26 +77,6 @@ a {
     color: #608c52;
 
 }
-
-.img__main{
-    text-align: justify;
-    margin-top: 5%;
-}
-
-.img__main h3{
-    text-align: center;
-}
-
-
-.tit__art {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 40px;
-    font-family: 'Amiri', serif;
-}
-
-
 
 /*--Footer--*/
 .footer {
@@ -213,31 +199,6 @@ ul.redes__list li a:hover {
 
 /*--Pagina Consultorio--*/
 
-.consultorio{
-    display: grid;
-    grid-template-rows: 2fr;
-
-}
-
-.consul__texto{
-    text-align: justify;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-block: 5%;
-}
-
-.consul__texto h3{
-    text-align: center;
-    margin-block-end: 5%;
-
-}
-
-
-.consul__img{
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 .tit__consul {
     font-family: 'Amiri', serif;
     font-size: 3rem;
@@ -246,6 +207,7 @@ ul.redes__list li a:hover {
     margin-block: 2vh;
 
 }
+
 
 /*--Pagina Recetas Saludables--*/
 
@@ -308,6 +270,18 @@ ul.redes__list li a:hover {
     border: 2px solid black;
     border-radius: 5px 5px 5px 5px;
 }
+
+.carousel-inner img {
+    width: 18vh;
+    height: 100vh;
+}
+
+.carousel-item.active {
+    background-color: #e0d0a6;
+}
+
+
+
 
 /*--Ajustes Media Query--*/
 @media (min-width:768px){
