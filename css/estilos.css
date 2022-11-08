@@ -157,4 +157,8 @@ ul.redes__list li a:hover {
   background-color: #e0d0a6;
 }
 
+svg {
+  overflow: visible;
+}
+
 /*# sourceMappingURL=estilos.css.map */
