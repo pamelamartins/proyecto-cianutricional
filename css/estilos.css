@@ -24,6 +24,10 @@ a {
   text-decoration: none;
 }
 
+svg {
+  overflow: visible;
+}
+
 .boton__send {
   display: block;
   width: 50px;
@@ -155,10 +159,6 @@ ul.redes__list li a:hover {
 }
 .btn-primary:hover {
   background-color: #e0d0a6;
-}
-
-svg {
-  overflow: visible;
 }
 
 /*# sourceMappingURL=estilos.css.map */
