@@ -1,0 +1,11 @@
+.btn-primary {
+    background-color: $color-titulos;
+    color: $color-hover-second;
+    border: $color-hover-second;
+    font-family: $tipografia-titulos;
+    font-size: 1.2rem;
+
+    &:hover
+    {background-color:$color-hover-second;
+    }
+}

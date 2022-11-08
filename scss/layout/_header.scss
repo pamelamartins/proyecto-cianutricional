@@ -1,0 +1,29 @@
+
+.header {
+    background-color: $color-fondo;
+    color: $color-hover;
+    &__imagen{
+        width: 9vh;
+        height: 9vh;
+        margin-left: 1vh;
+    }
+}
+
+.navbaritem:hover {
+    background-color: $color-hover-second;
+    border-radius: 100%;
+    color: $color-hover-second;
+}
+
+.nav-link.navbaritem {
+    padding: 16px;
+    color: $color-hover;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link.active {
+    color: $color-hover-second;
+    background-color: $color-hover;
+    border-radius: 100%;
+}
+

@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-titulos;
+    padding: 17px;
+    color: #e0d0a6;
+    font-family: $tipografia-principal;
+    text-decoration: none;
+
+    &__img {
+        width: 30vh;
+        height: 10vh;
+
+        @include mobile {
+            width: 15vh;
+            height: 5vh;
+
+        }
+
+    }    
+}
+
+.redes__list {
+    display: flex;
+    gap: 70px;
+    margin-top: 2vh;
+
+    @include mobile {
+        gap: 10px;
+        margin-top: 1vh;
+    }
+}
+
+
+ul.redes__list li a {
+    text-decoration: none;
+    color: #e0d0a6;
+}
+
+ul.redes__list li a:hover {
+    color: $color-hover;
+}

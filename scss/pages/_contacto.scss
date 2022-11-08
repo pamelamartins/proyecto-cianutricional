@@ -1,0 +1,33 @@
+.contacto{
+    &__form{    
+        background-image: url("../assets/imagenes/limaimg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    &__div{   
+        margin: 3% 12%;
+        width: 75%;
+        justify-items: center;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-titulos;
+        border-radius: 50px 50px 50px 50px;
+        text-align: center;
+        line-height: 27px;
+        padding: 6%;
+
+}
+}
+
+.titulo__contacto {
+    color: $color-hover-second;
+}
