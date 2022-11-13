@@ -38,6 +38,24 @@ svg {
   background-color: #e0d0a6;
 }
 
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 13px;
+}
+
 .footer {
   display: flex;
   justify-content: space-between;
@@ -46,6 +64,14 @@ svg {
   color: #e0d0a6;
   font-family: "PT Serif", serif;
   text-decoration: none;
+}
+@media (max-width: 460px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .footer__img {
   width: 30vh;
@@ -67,6 +93,7 @@ svg {
   .redes__list {
     gap: 10px;
     margin-top: 1vh;
+    padding-left: 0cm;
   }
 }
 
